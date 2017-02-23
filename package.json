@@ -1,0 +1,22 @@
+{
+  "name": "change-node-version",
+  "version": "0.0.1",
+  "description": "Uses tj/n to change node to the minimum version listed in package.json in the engines section.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreshConsulting/change-node-version.git"
+  },
+  "author": "Fresh Consulting",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/FreshConsulting/change-node-version/issues"
+  },
+  "homepage": "https://github.com/FreshConsulting/change-node-version#readme",
+  "dependencies": {
+    "semver": "^5.3.0"
+  }
+}
