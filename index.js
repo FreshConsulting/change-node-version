@@ -30,6 +30,8 @@ try {
     // If continue is passed we don't rerun the command to support npm script hooks
     if(process.argv[2] !== 'continue') {
       console.log('Restarting command... (command output is delayed)');
+      // reinstall node packages
+      execSync('npm install').toString()
       var command = process.argv.join(' ');
       process.stdout.write(execSync(command).toString());
       process.exit();
